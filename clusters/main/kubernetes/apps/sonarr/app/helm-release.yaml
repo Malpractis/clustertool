@@ -83,11 +83,11 @@ spec:
         enabled: true
         path: /mnt/tank/data
         mountPath: /data
-        server: ${TRUENAS_IP}
+        server: 10.0.0.22
         type: nfs
       backup:
         enabled: true
         path: /mnt/tank/backup/apps/sonarr
         mountPath: /backup
-        server: ${TRUENAS_IP}
+        server: 10.0.0.22
         type: nfs
